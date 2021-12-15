@@ -77,16 +77,3 @@ print(df)
 writer = pd.ExcelWriter('C:\\Users\\ss586\\Documents\\project\\attendence.xlsx') #path for excel file
 df.to_excel(writer, index=False)
 writer.save()
-
-
-
-
-
-''' 
-        Tomato
-    ->fungi
-    ->viral
-    ->bacterial   *imp black spots first found in leaf*
-easy on leaf
-
-'''
